@@ -1,0 +1,15 @@
+{
+  "name": "angular2-datetime-money",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "",
+  "ignore": [],
+  "dependencies": {
+    "bootstrap": "v3.3.6",
+    "bootstrap-datepicker": "1.5.1",
+    "moment": "~2.11.2",
+    "eonasdan-bootstrap-datetimepicker": "~4.17.37"
+  },
+  "private": true
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/moment/min/moment.min.js"></script>
+    <script src="lib/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+
+    <script src="lib/numeral.min.js"></script>
+
+
+    <style>
+
+         .ng-invalid {
+            border:1px solid red;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <app> Loading...</app>
+</div>
+</body>
+
+<!-- ES6-related imports -->
+<script src="lib/angular2-polyfills.js"></script>
+<script src="lib/es6-shim.min.js"></script>
+<script src="lib/system.js"></script>
+
+<script>
+    //configure system loader
+    System.config({defaultJSExtensions: true});
+</script>
+<script src="lib/angular2.min.js"></script>
+<script src="lib/Rx.js"></script>
+
+<script>
+    //bootstrap the Angular2 application
+    System.import('./index').catch(console.log.bind(console));
+</script>
+
+</html>

@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="inputmoney">Money</label>
+            <input class="form-control" id="inputmoney"  money required [(ngModel)]="money"/>
+            model value : {{money}}
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="inputdate">Date</label>
+            <input class="form-control" id="inputdate" datetime [picktime]="false" [(ngModel)]="date"/>
+            model value :{{date}}
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="inputdatetime">Datetime</label>
+            <input class="form-control" id="inputdatetime" datetime [picktime]="true" [(ngModel)]="datetime"/>
+            model value : {{datetime}}
+        </div>
+    </div>
+</div>
+
+
+
+
